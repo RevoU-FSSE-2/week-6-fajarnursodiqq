@@ -35,13 +35,13 @@ Containers effectively bridge the divide between development and production envi
    ![Docker](images/3.JPG)
 
 3. **Erecting the image**: Execute the command `docker build . -t your_image_name` to encapsulate your application and its prerequisites within a self-sufficient entity primed for consistent deployment.
-   ![Docker](images/4.JPG)
+   ![Docker](images/4.jpg)
 
 4. **Commencing the container**: Trigger the command `docker run -p your-localport:app-port your_image_name` to initiate the Docker container. The employment of the `-p` flag enables the mapping of a local port to a corresponding port within the container, thereby granting access to the encapsulated application.
-   ![Docker](images/5.JPG)
+   ![Docker](images/5.jpg)
 
 5. **Confirming the outcome**: Embark on a web browser journey to [http://localhost:your-localport](http://localhost:your-localport) for a glimpse of your Node.js application.
-   ![Docker](images/6.JPG)
+   ![Docker](images/6.jpg)
 
 ## Conclusion
 
